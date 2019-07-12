@@ -1,1 +1,38 @@
 /* CSS */
+html {
+    box-sizing: border-box;
+
+}
+
+*, *:before, *after {box-sizing:inherit;}
+
+body{
+    height: 100vh;
+    background-color: blue;
+    color: aquamarine;
+}
+.flex-start{
+    border:10px solid red;
+    background-color: blueviolet;
+    border-radius: 15px;
+    height:78%;
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.flex-start-box{
+    border: 10px solid rgb(85, 0, 255);
+    background-color: crimson;
+    border-radius: 15px;
+    height: 68%;
+    width: 27%;}
+
+.flex-start-mode{
+    text-align: center;
+}
+
+.flex-start.hidden {
+    display:none;
+}
